@@ -1,0 +1,16 @@
+.special {
+	 font-family:"Impact", Impact;
+	 color: slateblue;
+}
+
+.courier {
+	font-family:"Courier New", courier, monospace;
+}
+
+
+.passion {
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	text-align: center;
+	color: red;
+	background-color: lightgreen;
+}
