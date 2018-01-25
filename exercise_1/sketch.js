@@ -1,4 +1,3 @@
-
 function setup() {
 	createCanvas(500, 500);
 	background(0);
@@ -19,6 +18,6 @@ function setup() {
 	fill(186, 160, 16);
 	triangle(100,100,100,200,150,175);
 
-	fill(4, 72, 252, 30)
-	triangle(150,175,100,200,250,250)
+	fill(4, 72, 252, 30);
+	triangle(150,175,100,200,250,250);
 }
