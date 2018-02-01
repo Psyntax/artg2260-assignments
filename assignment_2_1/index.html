@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<head>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js"></script>
+	<script src="p5.dom.js"> </script>
+	<script src="sketch.js"></script>
+</head>
+<body>
+	<H1> Settings and Controls </H1>
+	<p> R/G/B+Period: Raise Corresponding Color Value, R/G/B+Comma: Lower Corresponding Color Value, Left/Right to Decrement/Increment Brush Size </p>
+	<p>Red</p>
+	<p id="currentRed"></p>
+	<p>Green</p>
+	<p id="currentGreen"></p>
+	<p>Blue</p>
+	<p id="currentBlue"></p>
+	<p> 
+		<button onclick="penEraser()">Eraser Tool</button> 
+		<button onclick="penStandard()">Pen Tool</button>
+		<button onclick="saveImage()">Save As Image</button>
+
+	</p>
+</body>
