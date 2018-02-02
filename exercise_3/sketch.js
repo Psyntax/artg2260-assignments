@@ -13,7 +13,7 @@ var ySize = 100
 // you'll need to create a folder called assets, and include the png there
 
 function preload() {
-  img = loadImage("https://78.media.tumblr.com/fd73cf682d641d63babc5f2a50d240f7/tumblr_ozv1bq8AGL1tketi9o2_1280.png");
+  img = loadImage("artg2260-assignments/assets/seel.jpg");
 }
 
 function setup() {
