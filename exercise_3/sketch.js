@@ -13,7 +13,7 @@ var ySize = 100
 // you'll need to create a folder called assets, and include the png there
 
 function preload() {
-  img = loadImage("assets/seel.jpg");
+  img = loadImage("assets/Seel.png");
 }
 //should be seel
 function setup() {
