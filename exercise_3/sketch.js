@@ -15,7 +15,7 @@ var ySize = 100
 function preload() {
   img = loadImage("artg2260-assignments/assets/seel.jpg");
 }
-
+//should be seel
 function setup() {
 	createCanvas(500,500)
     xPos=width/2
