@@ -5,12 +5,10 @@ function setup() {
 	stroke(255);
 	strokeWeight(1);
 
-var x = 0
-var y = 0
-
-	for (x=0; x < 100; x++) {
+	for (x=0; x < 10; x++) {
 		for (y=0; y<10; y++) {
-			line(0,y*50,(0+(x*50)),500);
+			fill(x*20,x*20,x*20);
+			ellipse(x*50,y*50,y*5,10);
 		}
 	}
 	
